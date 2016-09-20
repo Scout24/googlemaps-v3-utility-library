@@ -16,7 +16,7 @@
 
  https://github.com/ImmobilienScout24/googlemaps-v3-utility-library
  @name ArcGIS Server Link for Google Maps JavaScript API V3
- @version 1.0
+ @version 1.0.1
  @author: Nianwei Liu (nianwei at gmail dot com)
  */
 (function(){function t(a,b,d){var c=""===b?0:a.indexOf(b);d=""===d?a.length:a.indexOf(d,c+b.length);return a.substring(c+b.length,d)}function J(a){return a&&"string"===typeof a}function u(a){return a&&a.splice}function k(a,b,d){if(a&&b)for(var c in a)!d&&c in b||(b[c]=a[c]);return b}function B(a,b,d){g.event.trigger.apply(this,arguments)}function y(a,b){a&&b&&b.error&&a(b.error)}function fa(a,b){var d="";a&&(d+=a.getTime()-6E4*a.getTimezoneOffset());b&&(d+=", "+(b.getTime()-6E4*b.getTimezoneOffset()));
